@@ -1,0 +1,92 @@
+.img-circle {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: ;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: grey;
+  background: rgba(3, 25, 255, 0.5);
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: black;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    /*height: 600px;*/
+}
+.carousel {
+    position: relative;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 900px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    height: 500px;
+  }
+}@media (max-width: 700px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    /*height: 100px;*/
+}
+
+@media (max-width:992 px) {
+  .thumbnail > img, .thumbnail a > img {
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+  }
+
+}
+
+footer{
+  background-color: #337ab7;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.afooter {
+  text-decoration: none;
+  color: white;
+}
+
+.afooter:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.text-center{
+  border-radius: 50px;
+  border-color: black;
+  font-family: 'Orbitron' , sans-serif;
+}
+

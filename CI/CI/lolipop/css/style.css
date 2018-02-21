@@ -1,0 +1,220 @@
+.img-circle {
+    height: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+  background: darkgrey;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: black;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    /*height: 600px;*/
+}
+.carousel {
+    position: relative;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 900px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    height: 500px;
+  }
+}@media (max-width: 700px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    /*height: 100px;*/
+}
+
+@media (max-width:992 px) {
+  .thumbnail > img, .thumbnail a > img {
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+  }
+
+}
+
+
+.text-center{
+  border-radius: 50px;
+  border-color: black;
+  font-family: 'Orbitron' , sans-serif;
+}
+
+.panel-title{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 17px;
+}
+.form-control{
+  border-radius: 50px;
+}
+
+.pilih{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.lihat {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.link_lihat{
+  color: black;
+}
+
+.link_lihat:hover{
+  color: black;
+  text-decoration: none;
+}
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+}
+
+.thumbnail >h3, .thumbnail a > h3 {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+.thumbnail >h6, .thumbnail a > h6 {
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.n8{
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.note8{
+  margin-right: 150px;
+}
+.penjelas{
+  font-size: 17px;
+  letter-spacing: 2px;  
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    border-color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.s8-jdl{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+
+.footer1{
+    padding-top:32px;
+}
+
+.footer1 .container{
+    text-align: center;
+}
+
+.footer1 .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer1 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.footer1 a{
+    color: white;
+    font-size: 18px;
+}
+
+.footer1 li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+.footer1{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
